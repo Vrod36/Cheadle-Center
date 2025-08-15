@@ -45,5 +45,10 @@ In [Script](https://github.com/Vrod36/Thermal-Tolerance-of-Sierra-Nevada-Bees/tr
 |Catalog Number | Numbered Identification for an individual bee in the UCSB Cheadle Center Records |
 | Vial#         | The number vial that the bee was in during thermal tolerance testing             |
 | Scientfic Name| The Bee Species Name                                                             |
+| Mass Tube with Bee (g) | The weight of a vial with the bee in it                                 |
+| Mass Tube (g) | The weight of the vial                                                           |
+| Live Mass (g) | The weight of the bee on its own, before its been dried                          |
+| ITD(mm) | The measurement from the base of one Bees
+
 
 
