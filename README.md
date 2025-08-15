@@ -34,8 +34,16 @@ In [Script](https://github.com/Vrod36/Thermal-Tolerance-of-Sierra-Nevada-Bees/tr
    a. Output *c_tmin_data* (not included in archive)
 6. Subset for Bombus-only data, filter rows containing "Bombus" in scientific_name, apply the same cleaning rules as before.
    a. Output *bombus_data*
-   
+7. Plot CTmin for Bombus, adjust x-axis to start at 45 minutes and increment by 45 minutes, customize axis labels to display hours/minutes.
+   a. Output *bombus_ctmin*
+8. Plot CTmax for Bombus with statistical annotation
+   a. Ouput *bombus_ctmax*
 
 
+| Column Name  | Defintion  | 
+| :------------ |:---------------| 
+|Catalog Number | Numbered Identification for an individual bee in the UCSB Cheadle Center Records |
+| Vial#         | The number vial that the bee was in during thermal tolerance testing             |
+| Scientfic Name| The Bee Species Name                                                             |
 
 
