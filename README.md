@@ -39,6 +39,7 @@ In [Script](https://github.com/Vrod36/Thermal-Tolerance-of-Sierra-Nevada-Bees/tr
 8. Plot CTmax for Bombus with statistical annotation
    a. Ouput *bombus_ctmax*
 
+## Defintions of column names in *Thermal_Tolerance_Data 2025.csv*
 
 | Column Name  | Defintion  | 
 | :------------ |:---------------| 
@@ -53,6 +54,14 @@ In [Script](https://github.com/Vrod36/Thermal-Tolerance-of-Sierra-Nevada-Bees/tr
 | CTmax | The highest temperature a Bee can handle before it seizes movement.                       |
 | Site | The catergorical location in which we sampled the bees from.                               |
 | Elevation | The Elevation of the location where we sampled the bees from.                         |
+| Acclimation (w)| When the 10 minute acclimation period begins for the heat tolerance testing.     |
+| Acclimation (c)| When the 10 minute acclimation period begins for the cold tolerance testing.     |
+| Assay Start | When the testing for heat or cold tolerance begins                                  |
+| Assay End | When the testing for heat or cold tolerance ends                                      |
+| Plant | The plant species that a bee was collected on                                             |
+| Time Collected | The time that bees are collected and put in vials                                |
+
+
 
 
 
