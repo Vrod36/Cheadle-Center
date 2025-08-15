@@ -12,3 +12,24 @@ In [Data](https://github.com/Vrod36/Cheadle-Center/tree/deda8a58cb18d75d23d9762a
 | Regression.csv | Data Sheet of Sierra Nevada bees, but with variables narrowed down for linear regression models (Live Mass, Elevation, Duration, CTmin, and CTmax) |
 | Thermal_Tolerance_Data 2025.csv | Data Sheet of all bees collected in Santa Barbara and the Sierra Nevadas, used for theremal tolerance testing. |
 
+# Descrpition of Script 
+
+In [Script](https://github.com/Vrod36/Thermal-Tolerance-of-Sierra-Nevada-Bees/tree/dba2e0a5fc67fdb7e36c71542bf61a1423932cb5/Script)
+| FIle Name | Description |
+| :------------ |:---------------|
+| regression.R | Code is used to create multiple linear regression models and graphs for Sierra Nevada Bees. |
+
+## General workflow for running the analyses:
+
+1. Download Regression.csv data from the data folder in this repository and read it in R.
+2. Use janitor::clean_names() to standardize column names.
+3. Standardize text entries (e.g., trimming spaces in scientific_name).
+4. Convert duration from HH:MM:SS format into minutes (lubridate::hms() + lubridate::period_to_seconds()).
+5. Filter the dataset for general CTmin analysis, remove unwanted species with few samples (less than 4 smampled), exclude data where duration exceeds your threshold (4 hours), remove missing values (NA) for the specific variable being plotted.
+   a. Output *c_tmin_data* (not included in archive)
+6. Subset for Bombus-only data, filter rows containing "Bombus" in scientific_name, apply the same cleaning rules as before.
+   a. Output *bombus_data*
+   
+
+
+
