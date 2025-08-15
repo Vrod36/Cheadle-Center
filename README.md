@@ -10,4 +10,5 @@ In [Data](https://github.com/Vrod36/Cheadle-Center/tree/deda8a58cb18d75d23d9762a
 | :------------ |:---------------|
 | Data.csv | Data sheet of bees, that were collected in the Sierra Nevadas for thermal tolerance testing. |
 | Regression.csv | Data Sheet of Sierra Nevada bees, but with variables narrowed down for linear regression models (Live Mass, Elevation, Duration, CTmin, and CTmax) |
-|
+| Thermal_Tolerance_Data 2025.csv | Data Sheet of all bees collected in Santa Barbara and the Sierra Nevadas, used for theremal tolerance testing. |
+
